@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: lightblue;
+  }
+  
+  .header {
+    background-color: lightgreen;
+    color: white;
+    text-align: center;
+    padding: 3px 0;
+  }
+  
+  .sidebar {
+    height: 100%;
+    width: 100px;
+    position: fixed;
+    top: 85px;
+    left: 0;
+    background-color: rgb(2, 2, 56);
+    padding: 20px;
+    border-collapse: collapse;
+    padding-top: 60px; /* Adjusted to accommodate the header height */
+  }
+  
+  .sidebar ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    padding: 15px;
+    border-bottom: 2px solid lightblue;
+  }
+  
+  .sidebar ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .sidebar ul li a:hover {
+    background-color: #555;
+  }
+  img{
+    height: 300px;
+    width: 400px;
+    margin-left: 480px;
+    margin-top: 50px;
+  }
+  .text{
+    text-align: center;
+  }
+  button{
+    margin: auto;
+    padding: 20px;
+    
+  }
+
+  
